@@ -39,7 +39,7 @@ const Footer = () => {
             <li><span className="font-semibold">Phone:</span> +123 456 7890</li>
             <li><span className="font-semibold">Email:</span> info@ngo.org</li>
           </ul>
-          <div className="flex space-x-4 mt-6">
+          <div className="flex space-x-4 mt-4 ml-20">
             <a href="#facebook" className="text-gray-200 hover:text-blue-400 transition duration-300"><FaFacebookF className="text-2xl" /></a>
             <a href="#twitter" className="text-gray-200 hover:text-blue-400 transition duration-300"><FaTwitter className="text-2xl" /></a>
             <a href="#instagram" className="text-gray-200 hover:text-blue-400 transition duration-300"><FaInstagram className="text-2xl" /></a>
@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-blue-500 mt-8 pt-4 text-center">
         <p className="text-gray-300">&copy; 2024 NGO Name. All rights reserved.</p>
-        <nav className="flex justify-center space-x-4 mt-4">
+        <nav className="flex justify-center space-x-4 mt-4 sm:px-5">
           <a href="#privacy" className="hover:text-blue-200 transition duration-300">Privacy Policy</a>
           <a href="#terms" className="hover:text-blue-200 transition duration-300">Terms of Service</a>
           <a href="#contact" className="hover:text-blue-200 transition duration-300">Contact Us</a>

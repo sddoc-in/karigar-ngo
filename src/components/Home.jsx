@@ -77,7 +77,7 @@ function Home() {
               />
             </div>
           </Carousel>
-          <div className="text-center mb-12">
+          <div className="text-center mb-3 bg-slate-50 mt-5 py-10">
             <h1 className="text-5xl font-extrabold mb-4 text-black">Welcome to Our NGO</h1>
             <p className="text-lg text-gray-700 mx-auto max-w-3xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -87,7 +87,7 @@ function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="container mx-auto px-4 py-12">
+      <section className="container mx-auto px-4 pb-14">
         <h2 className="text-4xl font-bold mb-8 text-center text-blue-600">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => (
@@ -131,7 +131,7 @@ function Home() {
           <p className="text-lg text-center max-w-3xl mb-8">
             Over the span of almost 2 decades, Goonj has won both National and International attention and recognition for its extensive work on non-issues and sustainable innovation.
           </p>
-          <button className="bg-white text-black px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">
+          <button className="bg-transparent text-black px-20 py-4 rounded-full shadow-md border-4 border-slate-100 hover:bg-orange-300">
             Read More
           </button>
         </div>

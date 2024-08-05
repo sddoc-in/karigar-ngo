@@ -69,8 +69,8 @@ function Contact() {
               <p className="text-gray-600">contact@ngo.org</p>
             </li>
             <li>
-              <h3 className="text-lg font-medium text-gray-800">Social Media</h3>
-              <p className="flex space-x-4">
+              <h3 className="text-lg font-medium text-gray-800 ">Social Media</h3>
+              <p className="flex space-x-4 ml-24">
                 <a href="#facebook" className="text-blue-600 hover:underline">Facebook</a> |
                 <a href="#twitter" className="text-blue-600 hover:underline">Twitter</a> |
                 <a href="#instagram" className="text-blue-600 hover:underline">Instagram</a> |
