@@ -1,18 +1,32 @@
 import './App.css';
-import Body from './components/Body';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Header from './components/Header/Header';
+import Home from './components/Home'; 
+import About from './components/About'; 
+import Impact from './components/Impact'; 
+import GetInvolved from './components/GetInvolved';
+import Projects from './components/Projects'; 
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-       <Header/>
-       <main className="bg-gray-100 pt-20">
-       <Body/>
-      </main>
-       
-       <Footer/>
-    </div>
+    <Router>
+      <div className="App flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow bg-gray-100 mt-20 mb-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/impact" element={<Impact />} />
+            <Route path="/get-involved" element={<GetInvolved />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
