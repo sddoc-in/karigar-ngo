@@ -8,6 +8,8 @@ import Impact from './components/Impact';
 import GetInvolved from './components/GetInvolved';
 import Projects from './components/Projects'; 
 import Contact from './components/Contact';
+import Team from './components/Team';
+import Mission from './components/Mission';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
             <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/mission"element={<Mission/>}/>
+
           </Routes>
         </main>
         <Footer />
