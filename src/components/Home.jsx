@@ -7,39 +7,40 @@ const projects = [
     id: 1,
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://www.hrw.org/sites/default/files/styles/16x9_large/public/multimedia_images_2015/india0814_coverimage.jpg?itok=uWo9ZHca"
   },
   {
     id: 2,
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://images.pexels.com/photos/860577/pexels-photo-860577.jpeg?cs=srgb&dl=pexels-jodaarba-860577.jpg&fm=jpg"
   },
   {
     id: 3,
     title: "Project 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://st3.depositphotos.com/3279155/16919/i/450/depositphotos_169192510-stock-photo-children-in-semien-mountains-ethiopia.jpg"
   },
   {
     id: 4,
     title: "Project 4",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://thumbs.dreamstime.com/b/manandoana-madagascar-april-group-unknown-malagasy-kids-running-road-next-to-rice-field-small-hills-background-people-192296448.jpg"
   },
   {
     id: 5,
     title: "Project 5",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://thumbs.dreamstime.com/b/woman-bucket-water-her-head-foothills-andringitra-national-park-madagascar-woman-bucket-water-269580239.jpg"
   },
   {
     id: 6,
     title: "Project 6",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "https://orphansunlimited.org/wp-content/uploads/2013/04/IMG_0049-African-Village-Morning.jpg"
   }
 ];
+
 
 function Home() {
   return (
@@ -47,36 +48,37 @@ function Home() {
       {/* Hero Section */}
       <section className="container mx-auto py-1 px-4 relative z-10">
         <div className="mb-12">
-          <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} interval={5000}>
-            <div>
-              <img
-                src="https://via.placeholder.com/800x400?text=Project+1"
-                alt="Project 1"
-                className="w-full object-cover rounded-lg shadow-lg"
-              />
-            </div>
-            <div>
-              <img
-                src="https://via.placeholder.com/800x400?text=Project+2"
-                alt="Project 2"
-                className="w-full object-cover rounded-lg shadow-lg"
-              />
-            </div>
-            <div>
-              <img
-                src="https://via.placeholder.com/800x400?text=Project+3"
-                alt="Project 3"
-                className="w-full object-cover rounded-lg shadow-lg"
-              />
-            </div>
-            <div>
-              <img
-                src="https://via.placeholder.com/800x400?text=Project+4"
-                alt="Project 4"
-                className="w-full object-cover rounded-lg shadow-lg"
-              />
-            </div>
-          </Carousel>
+        <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} interval={5000}>
+  <div>
+    <img
+      src="https://www.indiaspend.com/h-upload/2022/08/26/781338-women-at-work-30-2-1500.jpg"
+      alt="Project 1"
+      className="w-full object-cover rounded-lg shadow-lg"
+    />
+  </div>
+  <div>
+    <img
+      src="https://lagatar24.com/wp-content/uploads/2022/09/The-main-works-under-MGNREGA-in-the-Sundarbans-are-the-construction-of-kutcha-dams-and-ponds-and-the-planting-of-mangroves-Photo-sourced-by-Rahul-Singh.jpg"
+      alt="Project 2"
+      className="w-full object-cover rounded-lg shadow-lg"
+    />
+  </div>
+  <div>
+    <img
+      src="https://images.indianexpress.com/2023/07/punjab-mgnrega-workers.jpg"
+      alt="Project 3"
+      className="w-full object-cover rounded-lg shadow-lg"
+    />
+  </div>
+  <div>
+    <img
+      src="https://live.staticflickr.com/8307/7996074563_fe7790627a_b.jpg"
+      alt="Project 4"
+      className="w-full object-cover rounded-lg shadow-lg"
+    />
+  </div>
+</Carousel>
+
           <div className="text-center mb-12">
             <h1 className="text-5xl font-extrabold mb-4 text-black">Welcome to Our NGO</h1>
             <p className="text-lg text-gray-700 mx-auto max-w-3xl">
@@ -122,20 +124,25 @@ function Home() {
 
       {/* Awards Section */}
       <section className="relative w-full h-screen overflow-hidden px-0.5">
-        <div 
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('https://via.placeholder.com/1500x1000?text=Awards+Background')" }}
-        ></div>
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-50 p-6 md:p-12">
-          <h1 className="text-4xl font-bold mb-4">Awards and Recognitions</h1>
-          <p className="text-lg text-center max-w-3xl mb-8">
-            Over the span of almost 2 decades, Goonj has won both National and International attention and recognition for its extensive work on non-issues and sustainable innovation.
-          </p>
-          <button className="bg-white text-black px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">
-            Read More
-          </button>
-        </div>
-      </section>
+  <div 
+    className="absolute inset-0 bg-cover bg-center z-0"
+    style={{ backgroundImage: "url('https://static.toiimg.com/thumb/msid-103995000,width-1280,height-720,resizemode-72/103995000.jpg')" }}
+  >
+    <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-50"></div>
+  </div>
+  <div className="relative z-10 flex flex-col items-center justify-center h-full text-white p-6 md:p-12 text-center">
+    <h1 className="text-5xl md:text-6xl font-extrabold mb-6 md:mb-8">
+      Awards and Recognitions
+    </h1>
+    <p className="text-lg md:text-xl max-w-4xl mb-8">
+      Over the span of almost 2 decades, Goonj has won both National and International attention and recognition for its extensive work on non-issues and sustainable innovation. Our efforts have been acknowledged through numerous awards and accolades, reflecting our commitment to making a positive impact.
+    </p>
+    <button className="bg-yellow-500 text-black px-8 py-4 rounded-lg shadow-md hover:bg-yellow-400 transition duration-300">
+      Read More
+    </button>
+  </div>
+</section>
+
     </main>
   );
 }
