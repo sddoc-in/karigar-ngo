@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-blue-500 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
+    <header className="bg text-white fixed top-0 left-0 w-full z-50 shadow-lg">
       <div className="container mx-auto flex items-center justify-between p-4">
         <img src="logo.png" alt="NGO Logo" className="h-6" />
         <nav className="relative">

@@ -10,6 +10,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Team from './components/Team';
 import Mission from './components/Mission';
+import Story from './components/Story';
+
+
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/team" element={<Team />} />
             <Route path="/mission"element={<Mission/>}/>
+            <Route path="/story"element={<Story/>}/>
+         
 
           </Routes>
         </main>
