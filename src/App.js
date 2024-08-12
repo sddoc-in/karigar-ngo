@@ -11,8 +11,7 @@ import Contact from './components/Contact';
 import Team from './components/Team';
 import Mission from './components/Mission';
 import Story from './components/Story';
-
-
+import Donate from './components/Donate';
 
 function App() {
   return (
@@ -30,9 +29,9 @@ function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/mission"element={<Mission/>}/>
             <Route path="/story"element={<Story/>}/>
-         
-
-          </Routes>
+            <Route path='donate' element={<Donate/>}/>
+                      
+                      </Routes>
         </main>
         <Footer />
       </div>

@@ -53,7 +53,7 @@ function Story() {
           {Successtory.map(Story => (
             <div key={Story.id} className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
               <img src={Story.imageUrl} alt={Story.title} className="w-full h-full object-cover rounded-md mb-4" />
-              <h3 className=" font-semibold text-gray-800 mb-2 text-2xl hover:underline">{Story.title}</h3>
+              <h3 className=" font-semibold text-gray-800 mb-2 text-2xl cursor-pointer hover:underline">{Story.title}</h3>
               <p className="text-gray-600 mb-4 text-lg">{Story.description}</p>
               <a href={`/ongoing-projects/${Story.id}`} className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-500 text-lg font-semibold">Read More</a>
             </div>

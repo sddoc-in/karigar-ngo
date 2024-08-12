@@ -7,37 +7,37 @@ const projects = [
     id: 1,
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   },
   {
     id: 2,
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   },
   {
     id: 3,
     title: "Project 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   },
   {
     id: 4,
     title: "Project 4",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   },
   {
     id: 5,
     title: "Project 5",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   },
   {
     id: 6,
     title: "Project 6",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
-    image: "https://via.placeholder.com/400x300"
+    image: "img-1.jpg"
   }
 ];
 
@@ -50,7 +50,7 @@ function Home() {
           <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} interval={5000}>
             <div>
               <img
-                src="https://via.placeholder.com/800x400?text=Project+1"
+                src="img-1.jpg"
                 alt="Project 1"
                 className="w-full object-cover rounded-lg shadow-lg"
               />
@@ -124,14 +124,14 @@ function Home() {
       <section className="relative w-full h-screen overflow-hidden px-0.5">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('https://via.placeholder.com/1500x1000?text=Awards+Background')" }}
+          style={{ backgroundImage: "url('img-1.jpg')" }}
         ></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-50 p-6 md:p-12">
           <h1 className="text-4xl font-bold mb-4">Awards and Recognitions</h1>
           <p className="text-lg text-center max-w-3xl mb-8">
             Over the span of almost 2 decades, Goonj has won both National and International attention and recognition for its extensive work on non-issues and sustainable innovation.
           </p>
-          <button className="bg-transparent text-black px-20 py-4 rounded-full shadow-md border-4 border-slate-100 hover:bg-orange-300">
+          <button className="bg-transparent text-white px-20 py-4 rounded-full shadow-md border-4 border-slate-100 hover:bg-orange-300">
             Read More
           </button>
         </div>

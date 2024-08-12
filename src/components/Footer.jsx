@@ -16,19 +16,19 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Quick Links</h3>
           <ul className="text-gray-300 space-y-2">
-            <li><a href="#home" className="hover:underline hover:text-blue-200 transition duration-300">Home</a></li>
-            <li><a href="#about" className="hover:underline hover:text-blue-200 transition duration-300">About Us</a></li>
-            <li><a href="#projects" className="hover:underline hover:text-blue-200 transition duration-300">Projects</a></li>
-            <li><a href="#contact" className="hover:underline hover:text-blue-200 transition duration-300">Contact</a></li>
+            <li><a href="/" className="hover:underline hover:text-blue-200 transition duration-300">Home</a></li>
+            <li><a href="/about" className="hover:underline hover:text-blue-200 transition duration-300">About Us</a></li>
+            <li><a href="/projects" className="hover:underline hover:text-blue-200 transition duration-300">Projects</a></li>
+            <li><a href="/contact" className="hover:underline hover:text-blue-200 transition duration-300">Contact</a></li>
             <li><a href="#donate" className="hover:underline hover:text-blue-200 transition duration-300">Donate</a></li>
           </ul>
         </div>
         <div>
           <h3 className="text-2xl font-bold mb-4">Latest News</h3>
           <ul className="text-gray-300 space-y-2">
-            <li><a href="#news1" className="hover:underline hover:text-blue-200 transition duration-300">Project A launched successfully</a></li>
-            <li><a href="#news2" className="hover:underline hover:text-blue-200 transition duration-300">Our impact in 2023</a></li>
-            <li><a href="#news3" className="hover:underline hover:text-blue-200 transition duration-300">Volunteer stories</a></li>
+            <li><a href="/story" className="hover:underline hover:text-blue-200 transition duration-300">Project A launched successfully</a></li>
+            <li><a href="/impact" className="hover:underline hover:text-blue-200 transition duration-300">Our impact in 2023</a></li>
+            <li><a href="/story" className="hover:underline hover:text-blue-200 transition duration-300">Volunteer stories</a></li>
             <li><a href="#news4" className="hover:underline hover:text-blue-200 transition duration-300">Upcoming events</a></li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const Footer = () => {
         <nav className="flex justify-center space-x-4 mt-4 sm:px-5">
           <a href="#privacy" className="hover:text-blue-200 transition duration-300">Privacy Policy</a>
           <a href="#terms" className="hover:text-blue-200 transition duration-300">Terms of Service</a>
-          <a href="#contact" className="hover:text-blue-200 transition duration-300">Contact Us</a>
+          <a href="/contact" className="hover:text-blue-200 transition duration-300">Contact Us</a>
         </nav>
       </div>
     </footer>

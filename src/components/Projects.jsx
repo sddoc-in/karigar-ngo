@@ -6,7 +6,7 @@ const ongoingProjects = [
     id: 1,
     title: "Project A",
     description: "Description of Project A, including goals, activities, and current status.",
-    imageUrl: "/path/to/imageA.jpg"
+    imageUrl: "img-1.jpg"
   },
   {
     id: 2,
