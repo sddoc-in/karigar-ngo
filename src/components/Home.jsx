@@ -7,37 +7,61 @@ const projects = [
     id: 1,
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-1.jpeg"
+>>>>>>> Stashed changes
   },
   {
     id: 2,
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-2.jpeg"
+>>>>>>> Stashed changes
   },
   {
     id: 3,
     title: "Project 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-3.jpeg"
+>>>>>>> Stashed changes
   },
   {
     id: 4,
     title: "Project 4",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-5.jpg"
+>>>>>>> Stashed changes
   },
   {
     id: 5,
     title: "Project 5",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-6.jpg"
+>>>>>>> Stashed changes
   },
   {
     id: 6,
     title: "Project 6",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+<<<<<<< Updated upstream
     image: "img-1.jpg"
+=======
+    image: "img-1.jpeg"
+>>>>>>> Stashed changes
   }
 ];
 
@@ -46,32 +70,36 @@ function Home() {
     <main className="relative bg-gray-100 pt-1">
       {/* Hero Section */}
       <section className="container mx-auto py-1 px-4 relative z-10">
-        <div className="mb-12">
+        <div className="mb-5">
           <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} interval={5000}>
             <div>
               <img
+<<<<<<< Updated upstream
                 src="img-1.jpg"
+=======
+                src="img-1.jpeg"
+>>>>>>> Stashed changes
                 alt="Project 1"
-                className="w-full object-cover rounded-lg shadow-lg"
+                className="w-full object-cover rounded-lg shadow-lg h-3/4"
               />
             </div>
             <div>
               <img
-                src="https://via.placeholder.com/800x400?text=Project+2"
+                src="img-2.jpeg"
                 alt="Project 2"
                 className="w-full object-cover rounded-lg shadow-lg"
               />
             </div>
             <div>
               <img
-                src="https://via.placeholder.com/800x400?text=Project+3"
+                src="img-3.jpeg"
                 alt="Project 3"
                 className="w-full object-cover rounded-lg shadow-lg"
               />
             </div>
             <div>
               <img
-                src="https://via.placeholder.com/800x400?text=Project+4"
+                src="img-5.jpg"
                 alt="Project 4"
                 className="w-full object-cover rounded-lg shadow-lg"
               />
@@ -124,14 +152,22 @@ function Home() {
       <section className="relative w-full h-screen overflow-hidden px-0.5">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
+<<<<<<< Updated upstream
           style={{ backgroundImage: "url('img-1.jpg')" }}
+=======
+          style={{ backgroundImage: "url('img-6.jpg')" }}
+>>>>>>> Stashed changes
         ></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-50 p-6 md:p-12">
           <h1 className="text-4xl font-bold mb-4">Awards and Recognitions</h1>
           <p className="text-lg text-center max-w-3xl mb-8">
             Over the span of almost 2 decades, Goonj has won both National and International attention and recognition for its extensive work on non-issues and sustainable innovation.
           </p>
+<<<<<<< Updated upstream
           <button className="bg-transparent text-white px-20 py-4 rounded-full shadow-md border-4 border-slate-100 hover:bg-orange-300">
+=======
+          <button className="bg-transparent px-20 py-4 rounded-full shadow-md border-4 border-slate-100 hover:bg-orange-500">
+>>>>>>> Stashed changes
             Read More
           </button>
         </div>
